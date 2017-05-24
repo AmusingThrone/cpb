@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CPB - Template</title>
+    <link rel="stylesheet" href="https://bootswatch.com/paper/bootstrap.min.css">
+    <script href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
+    <script href='https://www.google.com/recaptcha/api.js' type="text/javascript"></script>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Product+Sans' rel='stylesheet' type='text/css'>
+</head>
+
+<div id="wrap">
+    <div id="main">
+
+        <body>
+            <nav class="navbar navbar-inverse">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="/" style="padding-top:13.5px;">CPB</img>
+                </a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="/">Home</a>
+                            </li>
+                            <li><a href="/register">Register</a>
+                            </li>
+                            <li><a href="/play">Play</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <br/>
+            <br/>
+            <br/>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                        <div class="jumbotron" id="home-jumbo">
+
+                            <h2>Register Today!</h2>
+                            <br>
+                            <style>
+                                .form-group {
+                                    width: 400px!important;
+                                }
+                                
+                                .alert {
+                                    width: 528px!important;
+                                }
+                            </style>
+                            <center>
+                                <div class="register-form">
+                                    <form method="POST" action="">
+                                        <div class="form-group">
+                                            <input type="text" name="username" minlength="4" maxlength="12" class="form-control" placeholder="Username" id="inputDefault">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="email" name="email" class="form-control" placeholder="Email" id="inputDefault">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="password" name="password" class="form-control" placeholder="Password" id="inputDefault">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="password" name="repassword" class="form-control" placeholder="Confirm Password" id="inputDefault">
+                                        </div>
+                                        <select name="penguinColor" style="width: 300px; height: 30px;">
+                                            <option class="selected">Select a color</option>
+                                            <option value="1">Blue</option>
+                                            <option value="2">Green</option>
+                                            <option value="3">Pink</option>
+                                            <option value="4">Black</option>
+                                            <option value="5">Yellow</option>
+                                            <option value="6">Dark Purple</option>
+                                            <option value="7">Brown</option>
+                                            <option value="8">Peach</option>
+                                            <option value="9">Red</option>
+                                            <option value="10">Orange</option>
+                                            <option value="11">Dark Green</option>
+                                            <option value="12">Light Blue</option>
+                                            <option value="13">Lime Green</option>
+                                            <option value="14">Aqua</option>
+                                            <option value="15">Grey</option>
+                                            <option value="16">Arctic White</option>
+                                        </select>
+                                        <br>
+                                        <br>
+                                        <div style="margin-left:152px;">
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="g-recaptcha" data-sitekey="SITE-KEY"></div>
+                                        </div>
+                                        <br>
+                                        <input type="submit" class="btn btn-success" value="Sign Up" style="width: 111px;margin-top: -16px;"></input>
+                                    </form>
+                            </center>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <div id="footer">Theme: CPB. &copy; AmusingThrone 2017.</div>
+    <div id="disclaimer">Your CPPS is an educational instance. We do not hold copyright for any of Disney's files. <a class="a-eduinstance" href="https://www.law.cornell.edu/uscode/text/17/107">17 U.S. Code &sect; 107</a></div>
+    </body>
+
+</html>

@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    min-height: 100%:
+}
+
+#wrap {
+    min-height: 100%;
+}
+
+#main {
+    overflow: auto;
+    padding-bottom: 180px;
+}
+
+#play-pg {
+    overflow: auto;
+    padding-bottom: 90px;
+}
+
+#disclaimer {
+    color: white;
+    text-align: center !important;
+    clear: both;
+    position: relative;
+    z-index: 11;
+    height: 2em;
+    margin-top: -2em;
+    font-family: 'Product Sans', Arial, sans-serif;
+}
+
+#footer {
+    color: white;
+    text-align: center !important;
+    clear: both;
+    position: relative;
+    z-index: 10;
+    height: 3em;
+    margin-top: -3em;
+    font-family: 'Product Sans', Arial, sans-serif;
+}
+
+body:before {
+    content: "";
+    height: 100%;
+    float: left;
+    width: 0;
+    margin-top: -32767px;
+}
+
+body {
+    background-image: url("../img/bg.png") !important;
+    background-size: 100% !important;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .4) !important;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: rgb(218, 220, 232) !important;
+}
+
+.navbar-brand {
+    color: #e6e2e2 !important;
+    text-align: center !important;
+    display: inline-block !important;
+    line-height: 36px !important;
+    font-size: 48px !important;
+    font-family: 'Product Sans', Arial, sans-serif;
+}
+
+h1 {
+    color: #e6e2e2 !important;
+    text-align: center !important;
+}
+
+h2 {
+    color: #e6e2e2 !important;
+    text-align: center !important;
+}
+
+h3 {
+    color: #e6e2e2 !important;
+    text-align: center !important;
+}
+
+h4 {
+    color: #e6e2e2 !important;
+    text-align: center !important;
+}
+
+h5 {
+    color: #e6e2e2 !important;
+    text-align: center !important;
+}
+
+h6 {
+    color: #e6e2e2 !important;
+    text-align: center !important;
+}
+
+small {
+    color: #e0d9d9 !important;
+    text-align: center !important;
+}
+
+.navbar {
+    border: none !important;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) !important;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) !important;
+}
+
+.navbar-inverse {
+    background-color: rgba(44, 60, 137, 0.02) !important;
+    border-color: transparent !important;
+    font-family: 'Product Sans', Arial, sans-serif;
+}
+
+#home-jumbo {
+    background-color: transparent;
+    color: #fff;
+    text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+.a-eduinstance {
+    color: #1c34c1 !important;
+    text-decoration: none !important;
+}
+
+.container>.row {
+    text-align: center;
+}
+
+#play {
+    height: 600px;
+    width: 80%;
+    margin: 0em auto;
+    border-radius: 5px;
+    overflow: auto;
+    position: relative;
+}
