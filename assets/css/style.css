@@ -134,6 +134,11 @@ small {
     text-decoration: none !important;
 }
 
+.credits {
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
 .container>.row {
     text-align: center;
 }
