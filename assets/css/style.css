@@ -119,6 +119,10 @@ small {
     font-family: 'Product Sans', Arial, sans-serif;
 }
 
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+    background-color: #33419c !important;
+}
+
 #home-jumbo {
     background-color: transparent;
     color: #fff;
@@ -141,4 +145,14 @@ small {
     border-radius: 5px;
     overflow: auto;
     position: relative;
+}
+
+select, input[type="color" i][list] {
+    background-color: #A9A9A9;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: rgba(255, 255, 255, 0.78);
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: rgba(25, 33, 80, 0.26);
 }
