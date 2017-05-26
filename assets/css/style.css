@@ -6,6 +6,7 @@
 @media (max-width: 700px) {
     body {
         background-image: url("../img/bg-mobile.png") !important;
+        background-repeat: repeat !important;
     }
 }
 
@@ -20,11 +21,6 @@ body {
 }
 
 #main {
-    overflow: auto;
-    padding-bottom: 180px;
-}
-
-#play-pg {
     overflow: auto;
     padding-bottom: 90px;
 }
@@ -61,8 +57,9 @@ body:before {
 
 body {
     background-image: url("../img/bg.png");
-    background-size: 100% !important;
+    background-size: cover !important;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .4) !important;
+    background-repeat: no-repeat;
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -136,7 +133,7 @@ small {
 }
 
 .a-eduinstance {
-    color: #1c34c1 !important;
+    color: #2196f3 !important;
     text-decoration: none !important;
 }
 
@@ -168,4 +165,8 @@ select, input[type="color" i][list] {
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
     border-color: rgba(25, 33, 80, 0.26);
+}
+
+.form-control {
+    color: #d4d4d4 !important;
 }
